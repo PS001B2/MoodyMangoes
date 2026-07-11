@@ -12,7 +12,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
-from analytics.trade_history import Trade
+from paper_trader.analytics.trade_history import Trade
 
 
 @dataclass(frozen=True)

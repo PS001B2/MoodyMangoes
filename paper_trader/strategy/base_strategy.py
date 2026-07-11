@@ -18,10 +18,10 @@ from __future__ import annotations
 
 from abc import ABC, abstractmethod
 
-from engine.exchange import Exchange
-from engine.position import Position
-from market.market_data import MarketDataSource
-from utils.logger import get_logger
+from paper_trader.engine.exchange import Exchange
+from paper_trader.engine.position import Position
+from paper_trader.market.market_data import MarketDataSource
+from paper_trader.utils.logger import get_logger
 
 logger = get_logger(__name__)
 

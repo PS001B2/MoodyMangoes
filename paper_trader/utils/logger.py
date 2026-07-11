@@ -30,7 +30,7 @@ import logging
 import sys
 from pathlib import Path
 
-from utils.config import LoggingConfig
+from paper_trader.utils.config import LoggingConfig
 
 _LOG_FORMAT = "%(asctime)s | %(levelname)-8s | %(name)s | %(message)s"
 _DATE_FORMAT = "%Y-%m-%d %H:%M:%S"

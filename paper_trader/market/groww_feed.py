@@ -25,9 +25,9 @@ from __future__ import annotations
 
 from typing import Any
 
-from market.market_data import MarketDataSource, PriceUnavailableError
-from utils.config import GrowwAPIConfig
-from utils.logger import get_logger
+from paper_trader.market.market_data import MarketDataSource, PriceUnavailableError
+from paper_trader.utils.config import GrowwAPIConfig
+from paper_trader.utils.logger import get_logger
 
 logger = get_logger(__name__)
 

@@ -17,7 +17,7 @@ from dataclasses import dataclass, field
 from datetime import datetime
 from enum import Enum
 
-from engine.order import OrderSide
+from paper_trader.engine.order import OrderSide
 
 
 class PositionStatus(str, Enum):

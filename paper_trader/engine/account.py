@@ -12,8 +12,8 @@ from __future__ import annotations
 
 from datetime import datetime
 
-from engine.position import Position, PositionStatus
-from utils.logger import get_logger
+from paper_trader.engine.position import Position, PositionStatus
+from paper_trader.utils.logger import get_logger
 
 logger = get_logger(__name__)
 

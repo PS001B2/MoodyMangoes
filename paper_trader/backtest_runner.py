@@ -28,19 +28,19 @@ from __future__ import annotations
 import sys
 from pathlib import Path
 
-from analytics.performance import PerformanceCalculator, PerformanceReport
-from analytics.trade_history import TradeHistory
-from engine.account import Account
-from engine.exchange import Exchange
-from engine.order_manager import OrderManager
-from engine.position import ExitReason
-from engine.position_manager import PositionManager
-from engine.risk_manager import RiskManager
-from market.historical_feed import HistoricalReplayFeed
-from market.market_data import PriceUnavailableError
-from strategy.manual_strategy import ManualStrategy
-from utils.config import AppConfig, load_config
-from utils.logger import get_logger, setup_logging
+from paper_trader.analytics.performance import PerformanceCalculator, PerformanceReport
+from paper_trader.analytics.trade_history import TradeHistory
+from paper_trader.engine.account import Account
+from paper_trader.engine.exchange import Exchange
+from paper_trader.engine.order_manager import OrderManager
+from paper_trader.engine.position import ExitReason
+from paper_trader.engine.position_manager import PositionManager
+from paper_trader.engine.risk_manager import RiskManager
+from paper_trader.market.historical_feed import HistoricalReplayFeed
+from paper_trader.market.market_data import PriceUnavailableError
+from paper_trader.strategy.manual_strategy import ManualStrategy
+from paper_trader.utils.config import AppConfig, load_config
+from paper_trader.utils.logger import get_logger, setup_logging
 
 logger = get_logger(__name__)
 

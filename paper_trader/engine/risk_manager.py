@@ -12,9 +12,9 @@ bookkeeping, and vice versa.
 
 from __future__ import annotations
 
-from engine.account import Account
-from utils.config import RiskConfig
-from utils.logger import get_logger
+from paper_trader.engine.account import Account
+from paper_trader.utils.config import RiskConfig
+from paper_trader.utils.logger import get_logger
 
 logger = get_logger(__name__)
 

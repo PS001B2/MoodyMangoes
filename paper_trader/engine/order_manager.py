@@ -11,8 +11,8 @@ positions, or capital.
 
 from __future__ import annotations
 
-from engine.order import Order, OrderSide, OrderType
-from utils.logger import get_logger
+from paper_trader.engine.order import Order, OrderSide, OrderType
+from paper_trader.utils.logger import get_logger
 
 logger = get_logger(__name__)
 

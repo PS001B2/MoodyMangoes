@@ -19,9 +19,9 @@ from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
 
-from engine.order import OrderSide
-from engine.position import ExitReason, Position, PositionStatus
-from utils.logger import get_logger
+from paper_trader.engine.order import OrderSide
+from paper_trader.engine.position import ExitReason, Position, PositionStatus
+from paper_trader.utils.logger import get_logger
 
 logger = get_logger(__name__)
 

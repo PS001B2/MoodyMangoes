@@ -18,14 +18,14 @@ unchanged — so Strategy code never needs to change.
 
 from __future__ import annotations
 
-from engine.account import Account, InsufficientCapitalError
-from engine.order import Order, OrderSide, OrderType
-from engine.order_manager import OrderManager
-from engine.position import ExitReason, Position
-from engine.position_manager import PositionManager, PositionNotFoundError
-from engine.risk_manager import RiskManager, RiskViolationError
-from market.market_data import MarketDataSource, PriceUnavailableError
-from utils.logger import get_logger
+from paper_trader.engine.account import Account, InsufficientCapitalError
+from paper_trader.engine.order import Order, OrderSide, OrderType
+from paper_trader.engine.order_manager import OrderManager
+from paper_trader.engine.position import ExitReason, Position
+from paper_trader.engine.position_manager import PositionManager, PositionNotFoundError
+from paper_trader.engine.risk_manager import RiskManager, RiskViolationError
+from paper_trader.market.market_data import MarketDataSource, PriceUnavailableError
+from paper_trader.utils.logger import get_logger
 
 logger = get_logger(__name__)
 

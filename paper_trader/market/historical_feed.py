@@ -21,8 +21,8 @@ import csv
 from datetime import datetime
 from pathlib import Path
 
-from market.market_data import MarketDataSource, PriceUnavailableError
-from utils.logger import get_logger
+from paper_trader.market.market_data import MarketDataSource, PriceUnavailableError
+from paper_trader.utils.logger import get_logger
 
 logger = get_logger(__name__)
 

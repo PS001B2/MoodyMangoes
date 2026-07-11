@@ -15,11 +15,11 @@ from __future__ import annotations
 
 from datetime import datetime
 
-from engine.account import Account
-from engine.order import OrderSide
-from engine.position import ExitReason, Position
-from market.market_data import MarketDataSource, PriceUnavailableError
-from utils.logger import get_logger
+from paper_trader.engine.account import Account
+from paper_trader.engine.order import OrderSide
+from paper_trader.engine.position import ExitReason, Position
+from paper_trader.market.market_data import MarketDataSource, PriceUnavailableError
+from paper_trader.utils.logger import get_logger
 
 logger = get_logger(__name__)
 
